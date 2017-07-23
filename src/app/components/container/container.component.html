@@ -1,0 +1,35 @@
+<p>
+  Container Component
+</p>
+
+
+<p>
+  <label for="container1">Container 1 URL</label>
+  <input type="text" [(ngModel)]="container1Url" id="container1" >
+  <button (click)="onInjectContainer1()">Inject Container 1</button>
+</p>
+
+<p>Container 1:</p>
+<div style="border: solid 1px blue" >
+  <div #contentContainer1></div>
+</div>
+
+<p>
+  <label for="container2">Container 1 URL</label>
+  <input type="text" [(ngModel)]="container2Url" id="container2" />
+  <button (click)="onInjectContainer2()">Inject Container 2</button>
+</p>
+<p>Container 2:</p>
+<div style="border: solid 1px blue" >
+  <div #contentContainer2></div>
+</div>
+
+<p>
+  <label for="container3">Container 1 URL</label>
+  <input type="text" [(ngModel)]="container3Url" id="container3" />
+  <button (click)="onInjectContainer3()">Inject Container 3</button>
+</p>
+<p>Container 3:</p>
+<div style="border: solid 1px blue" >
+  <div #contentContainer3></div>
+</div>
